@@ -87,8 +87,7 @@ Take it down, pass it around, no more bottles of beer on the wall!
             range_data["range"] >= num_bottles - 1
         )  # allow for last verse to be outside loop
 
-    def test_while_loop_accumulator_version_output(self, capsys, monkeypatch):
-        """
+w        """
         Checks whether the output is correct using a while loop with accumulator
         """
 
